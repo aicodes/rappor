@@ -22,14 +22,19 @@ If you don't have a Linux box handy, you can [view the generated
 output](http://google.github.io/rappor/examples/report.html).
 
 To setup your enviroment there are some packages and R dependencies. There is a setup script to install them:
-    $ ./setup.sh
+
+    ./setup.sh
+    
 Then to build the native components run:
-    $ ./build.sh 
+
+    ./build.sh
+
 This compiles and tests the `fastrand` C extension module for Python, which
 speeds up the simulation.
 
 Finally to run the demo run:
-    $ ./demo.sh
+
+    ./demo.sh
 
 The demo strings together the Python and R code.  It:
 
